@@ -1,3 +1,7 @@
+const { getTemplateInstallPackage } = require("create-react-app/createReactApp");
+
+npm getTemplateInstallPackage
+node
 let currentPlayer = 'X';
 let gameBoard = ['', '', '', '', '', '', '', '', ''];
 let gameActive = true;
