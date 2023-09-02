@@ -1,7 +1,9 @@
 const { getTemplateInstallPackage } = require("create-react-app/createReactApp");
+const { server } = require("karma");
 
 npm getTemplateInstallPackage
-node
+
+
 let currentPlayer = 'X';
 let gameBoard = ['', '', '', '', '', '', '', '', ''];
 let gameActive = true;
