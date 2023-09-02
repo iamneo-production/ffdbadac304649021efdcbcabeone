@@ -9,4 +9,82 @@ body {
     font-family: "Radio Canada", sans-serif;
   }
   
-/* Enter your styling here */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.header {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.btn:disabled {
+    color: #000;
+    cursor: not-allowed;
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.result {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.reset-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.reset-btn {
+    border: 2px solid #000;
+    color: #000;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.reset-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
